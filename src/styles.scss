@@ -1,1 +1,445 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary: #D6D3CE;
+    --primary-contrast: #777371;
+    --primary-font: 'Roboto', sans-serif;
+}
+$spacer: 1rem !default;
+
+* {
+    font-family: var(--primary-font);
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--primary-contrast);
+}
+
+fieldset {
+    border: 3px solid var(--primary-contrast);
+}
+
+.ml-0 {
+    margin-left: 0px !important;
+}
+
+.ml-1 {
+    margin-left: ($spacer * .25) !important;
+}
+
+.ml-2 {
+    margin-left: ($spacer * .5) !important;
+}
+
+.ml-3 {
+    margin-left: $spacer !important;
+}
+
+.ml-4 {
+    margin-left: ($spacer * 1.5) !important;
+}
+
+.ml-5 {
+    margin-left: ($spacer * 1.5) !important;
+}
+
+.mr-0 {
+    margin-right: 0px !important;
+}
+
+.mr-1 {
+    margin-right: ($spacer * .25) !important;
+}
+
+.mr-2 {
+    margin-right: ($spacer * .5) !important;
+}
+
+.mr-3 {
+    margin-right: $spacer !important;
+}
+
+.mr-4 {
+    margin-right: ($spacer * 1.5) !important;
+}
+
+.mr-5 {
+    margin-right: ($spacer * 1.5) !important;
+}
+
+.mt-0 {
+    margin-top: 0px !important;
+}
+
+.mt-1 {
+    margin-top: ($spacer * .25) !important;
+}
+
+.mt-2 {
+    margin-top: ($spacer * .5) !important;
+}
+
+.mt-3 {
+    margin-top: $spacer !important;
+}
+
+.mt-4 {
+    margin-top: ($spacer * 1.5) !important;
+}
+
+.mt-5 {
+    margin-top: ($spacer * 1.5) !important;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.mb-1 {
+    margin-bottom: ($spacer * .25) !important;
+}
+
+.mb-2 {
+    margin-bottom: ($spacer * .5) !important;
+}
+
+.mb-3 {
+    margin-bottom: $spacer !important;
+}
+
+.mb-4 {
+    margin-bottom: ($spacer * 1.5) !important;
+}
+
+.mb-5 {
+    margin-bottom: ($spacer * 1.5) !important;
+}
+
+.mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.mx-1 {
+    margin-left: ($spacer * .25) !important;
+    margin-right: ($spacer * .25) !important;
+}
+
+.mx-2 {
+    margin-left: ($spacer * .5) !important;
+    margin-right: ($spacer * .5) !important;
+}
+
+.mx-3 {
+    margin-left: ($spacer * 1) !important;
+    margin-right: ($spacer * 1) !important;
+}
+
+.mx-4 {
+    margin-left: ($spacer * 1.25) !important;
+    margin-right: ($spacer * 1.25) !important;
+}
+
+.mx-5 {
+    margin-left: ($spacer * 1.5) !important;
+    margin-right: ($spacer * 1.5) !important;
+}
+
+.my-0 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.my-1 {
+    margin-top: ($spacer * .25) !important;
+    margin-bottom: ($spacer * .25) !important;
+}
+
+.my-2 {
+    margin-top: ($spacer * .5) !important;
+    margin-bottom: ($spacer * .5) !important;
+}
+
+.my-3 {
+    margin-top: ($spacer * 1) !important;
+    margin-bottom: ($spacer * 1) !important;
+}
+
+.my-4 {
+    margin-top: ($spacer * 1.25) !important;
+    margin-bottom: ($spacer * 1.25) !important;
+}
+
+.my-5 {
+    margin-top: ($spacer * 1.5) !important;
+    margin-bottom: ($spacer * 1.5) !important;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p-0 {
+    padding: 0px !important;
+}
+
+.p-1 {
+    padding: ($spacer * .25) !important;
+}
+
+.p-2 {
+    padding: ($spacer * .5) !important;
+}
+
+.p-3 {
+    padding: $spacer !important;
+}
+
+.p-4 {
+    padding: ($spacer * 1.25) !important;
+}
+
+.p-5 {
+    padding: ($spacer * 1.5) !important;
+}
+
+.pl-0 {
+    padding-left: 0px !important;
+}
+
+.pl-1 {
+    padding-left: ($spacer * .25) !important;
+}
+
+.pl-2 {
+    padding-left: ($spacer * .5) !important;
+}
+
+.pl-3 {
+    padding-left: $spacer !important;
+}
+
+.pl-4 {
+    padding-left: ($spacer * 1.25) !important;
+}
+
+.pl-5 {
+    padding-left: ($spacer * 1.5) !important;
+}
+
+.pr-0 {
+    padding-right: 0px !important;
+}
+
+.pr-1 {
+    padding-right: ($spacer * .25) !important;
+}
+
+.pr-2 {
+    padding-right: ($spacer * .5) !important;
+}
+
+.pr-3 {
+    padding-right: $spacer !important;
+}
+
+.pr-4 {
+    padding-right: ($spacer * 1.5) !important;
+}
+
+.pr-5 {
+    padding-right: ($spacer * 1.5) !important;
+}
+
+.pt-0 {
+    padding-top: 0px !important;
+}
+
+.pt-1 {
+    padding-top: ($spacer * .25) !important;
+}
+
+.pt-2 {
+    padding-top: ($spacer * .5) !important;
+}
+
+.pt-3 {
+    padding-top: $spacer !important;
+}
+
+.pt-4 {
+    padding-top: ($spacer * 1.5) !important;
+}
+
+.pt-5 {
+    padding-top: ($spacer * 1.5) !important;
+}
+
+.pb-0 {
+    padding-bottom: 0px !important;
+}
+
+.pb-1 {
+    padding-bottom: ($spacer * .25) !important;
+}
+
+.pb-2 {
+    padding-bottom: ($spacer * .5) !important;
+}
+
+.pb-3 {
+    padding-bottom: $spacer !important;
+}
+
+.pb-4 {
+    padding-bottom: ($spacer * 1.5) !important;
+}
+
+.pb-5 {
+    padding-bottom: ($spacer * 1.5) !important;
+}
+
+.px-0 {
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+}
+
+.px-1 {
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+}
+
+.px-2 {
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+}
+
+.px-3 {
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+}
+
+.px-4 {
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+}
+
+.px-5 {
+    padding-left: ($spacer * .5) !important;
+    padding-right: ($spacer * .5) !important;
+}
+
+.py-0 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.py-1 {
+    padding-top: ($spacer * .25) !important;
+    padding-bottom: ($spacer * .25) !important;
+}
+
+.py-2 {
+    padding-top: ($spacer * .5) !important;
+    padding-bottom: ($spacer * .5) !important;
+}
+
+.py-3 {
+    padding-top: ($spacer * 1) !important;
+    padding-bottom: ($spacer * 1) !important;
+}
+
+.py-4 {
+    padding-top: ($spacer * 1.25) !important;
+    padding-bottom: ($spacer * 1.25) !important;
+}
+
+.py-5 {
+    padding-top: ($spacer * 1.5) !important;
+    padding-bottom: ($spacer * 1.5) !important;
+}
+
+.py-auto {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.float-right {
+    float: right;
+}
+
+input {
+    width: 50%;
+}
+
+.select {
+    width: 51.5%;
+}
