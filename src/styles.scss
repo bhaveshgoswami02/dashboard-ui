@@ -5,6 +5,7 @@
     --primary: #D6D3CE;
     --primary-contrast: #777371;
     --primary-font: 'Roboto', sans-serif;
+    --blue: #2f77b3;
 }
 $spacer: 1rem !default;
 
@@ -19,6 +20,10 @@ body {
 
 fieldset {
     border: 3px solid var(--primary-contrast);
+}
+
+.m-0 {
+    margin: 0px;
 }
 
 .ml-0 {
@@ -446,4 +451,26 @@ input {
 
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.text-blue {
+    color: var(--blue);
+    font-weight: 500;
+}
+
+button {
+    padding: 5px 25px;
+    font-weight: 500;
 }

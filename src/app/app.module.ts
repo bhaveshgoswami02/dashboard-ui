@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoresMaintenanceComponent } from './stores-maintenance/stores-maintenance.component';
 import { MemberMaintenanceComponent } from './member-maintenance/member-maintenance.component';
+import { ToolsMigrationComponent } from './tools-migration/tools-migration.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StoresMaintenanceComponent,
-    MemberMaintenanceComponent
+    MemberMaintenanceComponent,
+    ToolsMigrationComponent
   ],
   imports: [
     BrowserModule,
