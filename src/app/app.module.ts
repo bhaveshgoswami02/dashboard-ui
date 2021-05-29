@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { StoresMaintenanceComponent } from './stores-maintenance/stores-maintenance.component';
 import { MemberMaintenanceComponent } from './member-maintenance/member-maintenance.component';
 import { ToolsMigrationComponent } from './tools-migration/tools-migration.component';
+import { ModulesMaintenanceComponent } from './modules-maintenance/modules-maintenance.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StoresMaintenanceComponent,
     MemberMaintenanceComponent,
-    ToolsMigrationComponent
+    ToolsMigrationComponent,
+    ModulesMaintenanceComponent
   ],
   imports: [
     BrowserModule,
